@@ -32,6 +32,25 @@
                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.7,6.9V18c0,0,0.2,1.4,1.8,0l8.1-4.8c0,0,1.2-1.1-1-2L9.8,6.5 C9.8,6.5,9.1,6,8.7,6.9z"/>
                   </g>
                </svg>
+               
+              <script>var music = document.getElementById("music");
+var playButton = document.getElementById("play");
+var pauseButton = document.getElementById("pause");
+
+pauseButton.style.visibility = "hidden";
+
+playButton.onclick = function() {
+	music.pause();
+	playButton.style.visibility = "hidden";
+	pause.style.visibility = "visible";
+  console.log(music.formatType);
+}
+
+pauseButton.onclick = function() {
+	music.play();
+	playButton.style.visibility = "visible";
+	pause.style.visibility = "hidden";
+}</script>
               
 
                <svg id="pause" viewBox="0 0 25 25" xml:space="preserve">
