@@ -1,12 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Raimondas zuolys testing site</title>
+<meta name="description" content="description about site in search engines">
+<meta name="keywords" content="Free CSS, Free CSS Templates, CSS Website Templates, Templates, Free Templates, CSS, Web Site Templates, Free CSS Menus">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/profile/styles/layout.css" type="text/css" media="all">
+<link rel="shortcut icon" href="/profile/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/profile/favicon.ico" type="image/x-icon">
+<link rel="alternate" href="/feed.xml" type="application/rss+xml" title="Latest Free Website Templates from Free CSS">
+<link rel="canonical" href="https://www.free-css.com/free-css-templates">
+<link rel="stylesheet" href="stylesheets/index.css" type="text/css">
+<script src="/profile/scripts/greybox/AJS.js"></script>
 
+</head>
+<body>
 
+<div class="top-container">
+  <h1>Raimondas Zuolys</h1>
+  <p>Based on GitHub</p>
+</div>
 
-
-
-
-
-
-
+<div class="header" id="myHeader">
+  <h2>viberadio</h2>
+</div>
 
 
 
@@ -33,7 +51,23 @@
                   </g>
                </svg>
                
-              <script>var music = document.getElementById("music");
+              
+              
+
+               <svg id="pause" viewBox="0 0 25 25" xml:space="preserve">
+                  <g>
+                     <rect x="6" y="4.6" width="3.8" height="15.7"/>
+                     <rect x="14" y="4.6" width="3.9" height="15.7"/>
+                  </g>
+               </svg>
+
+               
+            </div>
+         </div>
+      </li>
+   </ul>
+</div>
+<script>var music = document.getElementById("music");
 var playButton = document.getElementById("play");
 var pauseButton = document.getElementById("pause");
 
@@ -51,18 +85,25 @@ pauseButton.onclick = function() {
 	playButton.style.visibility = "visible";
 	pause.style.visibility = "hidden";
 }</script>
-              
 
-               <svg id="pause" viewBox="0 0 25 25" xml:space="preserve">
-                  <g>
-                     <rect x="6" y="4.6" width="3.8" height="15.7"/>
-                     <rect x="14" y="4.6" width="3.9" height="15.7"/>
-                  </g>
-               </svg>
+<script>
+window.onscroll = function() {myFunction()};
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }}
+</script>
 
-               
-            </div>
-         </div>
-      </li>
-   </ul>
-</div>
+
+  
+</body>
+</html>
+
+
+
+
+
